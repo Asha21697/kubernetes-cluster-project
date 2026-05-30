@@ -1,4 +1,4 @@
-# Kubernetes Cluster Setup and Nginx Deployment
+# Kubernetes Multi-Node Cluster Setup, Troubleshooting and Nginx Deployment 
 
 ## Project Overview
 
@@ -20,6 +20,9 @@ After creating the cluster, an Nginx application was deployed using Kubernetes D
 - kubelet
 - kubectl
 - Containerd 
+- Calico CNI
+- YAML
+
 
 ## Cluster Architecture
 
@@ -95,7 +98,7 @@ kubectl expose deployment nginx-deploy --type=NodePort --port=80
 ### Verify Services
 
 ```bash
-kubectl get services
+kubectl get svc 
 ```
 
 Additional Resources
@@ -145,6 +148,7 @@ kubernetes-cluster-project/
 ![Nginx Application](screenshots/nginx-working.png)
 
 ## Commands Used
+Note: Both YAML-based deployment and kubectl CLI deployment methods were practiced during the project.
 
 ```bash
 kubectl get nodes
@@ -253,4 +257,4 @@ Successfully verified:
 
 ## Author
 
-   ASHA 
+   Asha
