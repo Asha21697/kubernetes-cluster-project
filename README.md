@@ -143,6 +143,15 @@ kubectl apply -f deployment.yaml
 kubectl apply -f service.yaml
 ```
 
+## Project Highlights
+
+- Built a Kubernetes cluster with 1 Master Node and 3 Worker Nodes.
+- Configured cluster communication using kubeadm.
+- Deployed Nginx application using Kubernetes Deployment.
+- Exposed application using Kubernetes Service.
+- Managed cluster resources using kubectl commands.
+- Verified pod and service status through Kubernetes CLI.
+
 ## Skills Demonstrated
 
 - Linux Administration
@@ -165,4 +174,4 @@ kubectl apply -f service.yaml
 
 ## Author
 
-Your Name ASHA 
+ASHA 
